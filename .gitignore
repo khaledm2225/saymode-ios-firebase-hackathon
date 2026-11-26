@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode user settings and non-shared schemes
+xcuserdata/
+
+# Xcode build output
+DerivedData/
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+
+# Firebase config and secrets, never in git
+GoogleService-Info.plist
+.env
+.env.*
+*.p8
+firebase-debug.log
+.firebase/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
