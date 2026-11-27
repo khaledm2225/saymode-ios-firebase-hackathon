@@ -1,0 +1,121 @@
+{
+  "name": "saymode design tokens (Juno and Pip design system)",
+  "color": {
+    "accent": {
+      "sun": "#FFD21F",
+      "bubblegum": "#FF4FA3",
+      "popBlue": "#3D7BFF",
+      "ink": "#141414"
+    },
+    "dark": {
+      "ground": {
+        "top": "#211C18",
+        "mid": "#161311",
+        "bottom": "#0C0B0A",
+        "vignette": {
+          "color": "#000000",
+          "clearUntil": 0.55,
+          "edgeOpacity": 0.42
+        },
+        "grain": {
+          "file": "textures/grain.png",
+          "tileSize": 128,
+          "speckColor": "#FFF3E6",
+          "averageOpacity": 0.044
+        },
+        "note": "Layers top to bottom: grain, vignette, vertical fade. Tonal only, no colored light."
+      },
+      "surface": "#221E1B",
+      "raised": "#2D2825",
+      "edge": "#4A433D",
+      "field": "#8C8177",
+      "text": "#FFF3E6",
+      "line": "#FFF3E6",
+      "shadow": "#FFF3E6",
+      "muted": "#B3A699",
+      "sunTint": "#332B12"
+    },
+    "light": {
+      "background": "#FFF3E6",
+      "surface": "#FFFFFF",
+      "raised": "#FFFFFF",
+      "edge": "#141414",
+      "field": "#141414",
+      "text": "#141414",
+      "line": "#141414",
+      "shadow": "#141414",
+      "muted": "#6B5E55",
+      "sunTint": "#FFF5C2",
+      "bubblegumTint": "#FFE3F0",
+      "popBlueTint": "#E3ECFF",
+      "divider": "#E8DCCD"
+    }
+  },
+  "font": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        700,
+        800
+      ]
+    },
+    "body": {
+      "family": "Plus Jakarta Sans",
+      "weights": [
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  },
+  "stroke": {
+    "interactive": 2.5,
+    "icon": 2.2
+  },
+  "shadow": {
+    "interactive": {
+      "x": 4,
+      "y": 4,
+      "blur": 0,
+      "colorDark": "#FFF3E6",
+      "colorLight": "#141414"
+    },
+    "small": {
+      "x": 3,
+      "y": 3,
+      "blur": 0,
+      "colorDark": "#FFF3E6",
+      "colorLight": "#141414"
+    }
+  },
+  "radius": {
+    "card": 24,
+    "option": 18,
+    "input": 16,
+    "iconTile": 16,
+    "button": "capsule"
+  },
+  "size": {
+    "minTouchTarget": 44,
+    "primaryButtonHeight": 56
+  },
+  "contrast": {
+    "creamOnGround": 15.45,
+    "mutedOnGround": 7.1,
+    "mutedOnSurface": 6.96,
+    "sunOnGround": 11.65,
+    "bubblegumOnGround": 5.55,
+    "inkOnSun": 12.71,
+    "inkOnBubblegum": 6.05,
+    "inkOnPopBlue": 4.8,
+    "mutedOnCreamLight": 5.72
+  },
+  "defaultTheme": "dark",
+  "rules": {
+    "lineOnFill": "ink on sun, bubblegum, popBlue and white; cream on dark fills",
+    "shadowOnSurface": "cream on dark surfaces, ink on light surfaces",
+    "staticCards": "no shadow; dark: surface fill with edge outline; light: white fill with ink outline",
+    "signInWithApple": "white style on dark, black style on light"
+  }
+}
