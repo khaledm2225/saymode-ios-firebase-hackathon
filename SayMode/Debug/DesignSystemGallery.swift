@@ -92,7 +92,7 @@ private struct GalleryCards: View {
                     DSIconTile(.mic, fill: .bubblegum)
                     VStack(alignment: .leading) {
                         Text(verbatim: "Microphone").dsFont(.heading).foregroundStyle(.ds(.text))
-                        Text(verbatim: "So Juno can hear you.").dsFont(.caption).foregroundStyle(.ds(.muted))
+                        Text(verbatim: "So Jody can hear you.").dsFont(.caption).foregroundStyle(.ds(.muted))
                     }
                 }
             }

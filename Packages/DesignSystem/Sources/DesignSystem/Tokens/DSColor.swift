@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Every color in the Juno and Pip design system.
+/// Every color in the Jody and Pip design system.
 /// Each token is an asset catalog color with a light (Any) and a dark appearance, so SwiftUI switches themes by itself.
 public enum DSColor: String, CaseIterable, Sendable {
     /// Ground fade, top layer. Dark: #211C18. Light: cream.
@@ -25,7 +25,7 @@ public enum DSColor: String, CaseIterable, Sendable {
     case shadow
     /// Secondary text.
     case muted
-    /// Background of the "Juno fixed it" card.
+    /// Background of the "Jody fixed it" card.
     case sunTint
     /// Hero shapes and the selected state.
     case sun
