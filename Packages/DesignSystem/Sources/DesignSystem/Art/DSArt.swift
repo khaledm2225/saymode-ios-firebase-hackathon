@@ -1,13 +1,13 @@
 import SwiftUI
 
-/// Juno and Pip art from the kit. Every image has a white sticker border, so it works on both themes.
+/// Jody and Pip art from the kit. Every image has a white sticker border, so it works on both themes.
 public enum DSCharacterPose: String, CaseIterable, Sendable {
     case hey
     case nailedIt
     case oops
     case thinking
     case welcomeHero
-    case junoFace
+    case jodyFace
 
     var assetName: String {
         switch self {
@@ -16,19 +16,19 @@ public enum DSCharacterPose: String, CaseIterable, Sendable {
         case .oops: "character-oops"
         case .thinking: "character-thinking"
         case .welcomeHero: "character-welcome-hero"
-        case .junoFace: "character-juno-face"
+        case .jodyFace: "character-jody-face"
         }
     }
 
     /// What VoiceOver reads for the art.
     public var accessibilityLabel: LocalizedStringResource {
         switch self {
-        case .hey: LocalizedStringResource("Juno and Pip waving", bundle: .atURL(Bundle.module.bundleURL))
-        case .nailedIt: LocalizedStringResource("Juno cheering and Pip jumping", bundle: .atURL(Bundle.module.bundleURL))
-        case .oops: LocalizedStringResource("Juno laughing and Pip covering its mouth", bundle: .atURL(Bundle.module.bundleURL))
-        case .thinking: LocalizedStringResource("Juno thinking and Pip with a question mark", bundle: .atURL(Bundle.module.bundleURL))
-        case .welcomeHero: LocalizedStringResource("Juno waving and Pip jumping, with greetings in five languages", bundle: .atURL(Bundle.module.bundleURL))
-        case .junoFace: LocalizedStringResource("Juno", bundle: .atURL(Bundle.module.bundleURL))
+        case .hey: LocalizedStringResource("Jody and Pip waving", bundle: .atURL(Bundle.module.bundleURL))
+        case .nailedIt: LocalizedStringResource("Jody cheering and Pip jumping", bundle: .atURL(Bundle.module.bundleURL))
+        case .oops: LocalizedStringResource("Jody laughing and Pip covering its mouth", bundle: .atURL(Bundle.module.bundleURL))
+        case .thinking: LocalizedStringResource("Jody thinking and Pip with a question mark", bundle: .atURL(Bundle.module.bundleURL))
+        case .welcomeHero: LocalizedStringResource("Jody waving and Pip jumping, with greetings in five languages", bundle: .atURL(Bundle.module.bundleURL))
+        case .jodyFace: LocalizedStringResource("Jody", bundle: .atURL(Bundle.module.bundleURL))
         }
     }
 }

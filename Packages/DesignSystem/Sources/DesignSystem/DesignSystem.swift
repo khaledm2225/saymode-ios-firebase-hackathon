@@ -1,4 +1,4 @@
-// DesignSystem: the Juno and Pip design system for saymode.
+// DesignSystem: the Jody and Pip design system for saymode.
 // Tokens, fonts, icons drawn in code, and SwiftUI components. No app logic.
 // It uses SwiftUI, plus CoreText to register the bundled fonts. No UIKit: the tests bring their own.
 import Foundation
